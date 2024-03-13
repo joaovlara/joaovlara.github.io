@@ -1,0 +1,21 @@
+#portfolio {
+    color: #fabd2f;
+    background-color: #000000;
+}
+
+.card {
+    margin-top: 1.4rem;
+    cursor: pointer;
+    border-color: #fabd2f;
+    background-color: black;
+    color: #fabd2f;
+    transition: transform 0.3s ease;
+
+}
+
+.card:hover{
+    border-color: aqua;
+    color: aqua;
+    transform: scale(1.10);
+
+}

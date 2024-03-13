@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(0deg, rgb(228, 99, 13) 0%, rgba(168, 59, 55, 1) 30%);
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: black;
+}
+
+.navbar-nav .nav-item {
+    font-size: 20px;
+    font-weight: 200px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: aqua;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar-brand:hover [img] {
+    color: aqua;
+}
+
+header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.jumbotron-fluid {
+    color: #fabd2f;
+    background-color: rgb(19, 16, 16);
+}
+
+#about {
+    font-size: 19px;
+    font-weight: 200px;
+    color: black;
+    text-align: justify;
+
+}
+
+
+#contact,
+.text-social,
+[p] {
+    font-size: 15px;
+    font-weight: 200px;
+    color: black;
+}
+
+.social-icons {
+    font-size: 2.5rem;
+    text-decoration: none;
+
+}
+
+.icon-link {
+    width: 2.5rem;
+    height: 2.5rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+.icon-link .icon-link:hover {
+    text-decoration: none;
+    color: aqua;
+
+}
+
+.copyright {
+    font-size: 15px;
+    font-weight: 200px;
+    color: black;
+    
+}
+
+@media (max-width: 600px) {
+    #contact {
+        color: black;
+    }
+
+    .text-social {
+        font-size: 15px;
+        font-weight: 200px;
+        color: black;
+    }
+
+    .copyright {
+        font-size: 13px;
+        font-weight: 200px;
+        color: black;
+    }
+
+    .social-icons, img {
+        font-size: 10px;
+    }
+
+    .icon-link {
+        border-top: 0.2px solid black;
+        text-decoration: none;
+        color: #000000;
+    }
+
+}
