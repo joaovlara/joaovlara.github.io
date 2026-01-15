@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: http://jwaodev.com.br
+
+# Sitemaps
+Sitemap: http://jwaodev.com.br/sitemap.xml
