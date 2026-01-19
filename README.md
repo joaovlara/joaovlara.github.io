@@ -1,30 +1,50 @@
-# Landing Page com Next e Tailwind CSS 
 
-## Como Alterar os Textos da Landing Page
+# Portfólio Profissional
 
-Para alterar os textos exibidos na landing page, edite o arquivo `src/data/texts.ts`. Este arquivo centraliza todo o conteúdo textual para facilitar a manutenção.
+Este é o repositório do meu portfólio pessoal, desenvolvido com [Next.js](https://nextjs.org/) e React. O objetivo é apresentar minhas habilidades, experiências e projetos de forma moderna, responsiva e animada.
 
-## Como Alterar as Imagens
+## Funcionalidades
 
-As imagens estão localizadas em `public/images/`. Para substituir ou adicionar uma imagem:
+- Página inicial com animações e apresentação
+- Seção "Sobre mim" com animações e ícones
+- Seção de expertise/skills
+- Listagem de projetos/experiências
+- Chamada para ação (contato)
+- Footer com links sociais
+- SEO otimizado e sitemap
 
-1. Adicione o novo arquivo de imagem na pasta `public/images/`.
-2. Utilize o caminho relativo a partir da pasta `public` para referenciar a imagem nos seus componentes. Por exemplo, uma imagem `logo.png` seria referenciada como `/images/logo.png`.
+## Tecnologias Utilizadas
 
-## Como Executar o Projeto
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- Animações customizadas (Framer Motion, CSS)
 
-### Pré-requisitos
-- Node.js (versão 20 ou superior)
-- npm, yarn ou pnpm
+## Estrutura do Projeto
 
-### Scripts Disponíveis
+```
+src/
+  app/           # Páginas, layout e estilos globais
+  components/    # Componentes reutilizáveis e animações
+	 Animation/   # Componentes de animação
+	 Sections/    # Seções principais do site
+  data/          # Dados e textos do portfólio
+  types/         # Tipagens TypeScript
+public/          # Imagens, sitemap, robots.txt
+```
 
-- `npm run dev` - Executa o projeto em modo de desenvolvimento.
-- `npm run build` - Gera a versão de produção da aplicação.
-- `npm run start` - Inicia um servidor de produção.
-- `npm run lint` - Executa o linter para verificar a qualidade do código.
+## Build para produção
 
-## Desenvolvimento
+```bash
+npm run build
+npm start
+```
 
-- Desenvolvido por João Lara [Linkedin](https://www.linkedin.com/in/joaovitorlara/)
-- Projeto em Desenvolvimento 
+## Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+Desenvolvido por João Vitor de Lara – [LinkedIn](https://www.linkedin.com/in/joaovlara/)
