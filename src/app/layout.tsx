@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { seoConfig } from "./seo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css";
 
 export const metadata: Metadata = seoConfig;
@@ -17,6 +18,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
