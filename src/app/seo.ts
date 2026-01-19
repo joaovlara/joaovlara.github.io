@@ -23,11 +23,11 @@ export const seoConfig: Metadata = {
     title: "Jwao | Desenvolvedor Web Freelancer",
     description:
       "Criação de websites, landing pages e portfólios profissionais com Next.js e TailwindCSS.",
-    url: "http://jwaodev.com.br",
+    url: "https://jwaodev.com.br",
     siteName: "Portfólio Jwao",
     images: [
       {
-        url: "http://jwaodev.com.br/preview.png",
+        url: "https://jwaodev.com.br/preview.png",
         width: 1200,
         height: 630,
         alt: "Portfólio de Jwao - Desenvolvedor Web Freelancer",
@@ -41,6 +41,6 @@ export const seoConfig: Metadata = {
     title: "Jwao | Desenvolvedor Web Freelancer",
     description:
       "Websites, landing pages e portfólios profissionais com Next.js e TailwindCSS.",
-    images: ["http://jwaodev.com.br/preview.png"],
+    images: ["https://jwaodev.com.br/preview.png"],
   },
 };
