@@ -11,7 +11,7 @@ Este é o repositório do meu portfólio pessoal, desenvolvido com [Next.js](htt
 - Listagem de projetos/experiências
 - Chamada para ação (contato)
 - Footer com links sociais
-- SEO otimizado e sitemap
+- SEO otimizado e sitemap GSC
 
 ## Tecnologias Utilizadas
 
